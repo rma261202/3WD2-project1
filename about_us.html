@@ -12,30 +12,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #bea44c;">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="form.html">FORM</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="about_us.html">ABOUT US</a>
-                  </li>
-                </ul>
-                <span class="navbar-text">
-                  <b>LUXDINE</b>
-                </span>
-            </div>
+    <!-- Nav -->    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">LuxDine</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+         <ul class="navbar-nav me-auto">
+          </ul>
+          <ul class="navbar-nav me-end">
+              <li class="nav-item">
+                  <a class="nav-link" href="form.html">Order</a> 
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a> 
+              </li>
+          </ul>      
         </div>
+      </div>
     </nav>
+<!-- Nav -->
     <br>
-    <div class="container" style="background-color: rgb(246, 244, 238);">
+    <div class="container p-5" style="background-color: rgb(246, 244, 238);">
         <br>
-        <div class="tittle text-center">
+        <div class="title text-center">
             <h3><b>ABOUT US</b></h3>
         </div>
         <br>
@@ -44,13 +46,13 @@
                 <img src="images/chef/francois.jpg" class="img-thumbnail" alt="chef3" width="250pax">
             </div>
             <div class='col-sm-7' >
-                <p>&emsp;&emsp;&emsp;Since our modest beginnings in the early 2000s with a little space in Jakarta, ‘LuxDine’ ‘s development has been enlivened with the energy to serve a solid fine dining experience.</p>
+                <p>&emsp;&emsp;&emsp;Since our modest beginnings in the early 2000s with a little space in Jakarta, ‘LuxDine’  development has been enlivened with the energy to serve a solid fine dining experience.</p>
                 <p>&emsp;&emsp;&emsp;We're going through up and downs through thousands research to creating the finest fine dining experience. We're trying to look and try to realise what our clients want from a dining experience. From thousands and many places, we are wanting to make a difference from others from the scene.
                 Then we're realising there's something that we can build from current situation.</p>
             </div>
         </div>
         <br>
-        <div class="tittle" style="text-align: justify;">
+        <div class="title" style="text-align: justify;">
             <p>
                 &emsp;&emsp;&emsp;Reflecting from yesterday's pandemic of COVID-19, and the massive decreasing of numbers of the people going out to fullfil their needs, we try to modify our way to serve the people. We're trying to adapt and improvise our way to survive. 
                 We realize that people are didn't often going out to experience a fine dining. And there's some restrictions around because of the pandemic. Then we're modified our steps to be fit in into the society.
@@ -61,7 +63,7 @@
             <img src="images/dining2.jpg" class="img-fluid" alt="dining5">
         </div>
         <br>
-        <div class="tittle" style="text-align: justify;">
+        <div class="title" style="text-align: justify;">
             <p>
                 &emsp;&emsp;&emsp;We realize our scene was a competitive one with many different opponent with various style of their own. Then we're changing to focusing to be a more focused for what the people's wanted to be on their table.
                 Our menu highlights things that cover up the taste of the world. In order to serve and creating astonishing experience for our customers, 
@@ -73,7 +75,7 @@
             </p>
         </div>
         <br>
-        <div class="tittle" style="text-align: right;">
+        <div class="title" style="text-align: right;">
             <p>Enjoy Luxdine</p>
             <p>Owner</p>
         </div>
@@ -81,38 +83,38 @@
     </div>
     <br>
     <footer class="wrapper">
-        <div id="bottom">
-        <div class="container text-center" >
-            <div class="row">
-                <div class="col">
-                    <div class="widget-about">
-                        <h5><u>Contact Us</u></h5>
-                        <br>
-                        <i class="bi bi-envelope-fill"><a href="#">&nbsp;Info@luxdine.com</a></i>
-                        <br>
-                        <i class="bi bi-telephone-fill"><a href="#">&nbsp;021-334-556</a></i>
-                    </div>
-                </div>
-                <div class="col">
-                    <h5><u>Our Office</u></h5>
-                    <br>
-                    <i class="bi bi-house-fill">&nbsp;Parc 18 - Tower A</i>
-                    <p>Jl. Jend.Sudirman Kav.52-53, Jend.Sudirman, SCBD, Jakarta Selatan</p>
-                </div>
-                <div class="col">
-                    <h5><u>Social Media</u></h5>
-                    <br>
-                    <div class="icon" style="width: 200pax;">
-                        <i class="bi bi-facebook">&nbsp;Facebook</i>
-                        <br>
-                        <i class="bi bi-instagram">&nbsp;Instagram</i>
-                        <br>
-                        <i class="bi bi-twitter">&nbsp;Twitter</i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </footer>
+      <div id="bottom">
+      <div class="container text-center" >
+          <div class="row p-5">
+              <div class="col">
+                  <div class="widget-about">
+                      <h5>Contact Us</h5>
+                      <br>
+                      <i class="bi bi-envelope-fill"><a href="#" style="text-decoration: none; color: white" >&nbsp;Info@luxdine.com</a></i>
+                      <br>
+                      <i class="bi bi-telephone-fill"><a href="#" style="text-decoration: none; color: white" >&nbsp;021-334-556</a></i>
+                  </div>
+              </div>
+              <div class="col">
+                  <h5>Our Office</h5>
+                  <br>
+                  <i class="bi bi-house-fill">&nbsp;Parc 18 - Tower A</i>
+                  <p>Jl. Jend.Sudirman Kav.52-53, Jend.Sudirman, SCBD, Jakarta Selatan</p>
+              </div>
+              <div class="col">
+                  <h5>Social Media</h5>
+                  <br>
+                  <div class="icon" style="width: 200pax;">
+                      <i class="bi bi-facebook">&nbsp;Facebook</i>
+                      <br>
+                      <i class="bi bi-instagram">&nbsp;Instagram</i>
+                      <br>
+                      <i class="bi bi-twitter">&nbsp;Twitter</i>
+                  </div>
+              </div>
+          </div>
+      </div>
+      </div>
+  </footer>
 </body>
 </html>
