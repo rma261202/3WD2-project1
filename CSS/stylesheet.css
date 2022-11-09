@@ -54,8 +54,9 @@
 }
 
 #bottom {
-   color: black;
-   background-color: #bea44c ;
+   color: white;
+   background-color: black ;
+   padding: 5%;
 }
 
 #carousel {
@@ -65,3 +66,19 @@
 #menu {
     filter: brightness(50%);
 }
+
+a.linktitle:link {
+    text-decoration: none;
+  }
+
+  a.linktitle:visited {
+    text-decoration: none;
+  }
+
+  a.linktitle:hover {
+    text-decoration: none;
+  }
+
+  a.linktitle:active {
+    text-decoration: none;
+  }
