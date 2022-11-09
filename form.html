@@ -6,38 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Private Fine Dining</title>
     <link rel="shortcut icon" href="images/logo.png">
-    <link href="css/stylesheet.css" rel="stylesheet">
+    <link href="CSS/stylesheet.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #bea44c;">
-        <div class="container-fluid">
-            <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" href="index.html">HOME</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="form.html">FORM</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about_us.html">ABOUT US</a>
-                  </li>
-                </ul>
-                <span class="navbar-text">
-                  <b>LUXDINE</b>
-                </span>
-            </div>
+    <!-- Nav -->    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">LuxDine</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+         <ul class="navbar-nav me-auto">
+          </ul>
+          <ul class="navbar-nav me-end">
+              <li class="nav-item">
+                  <a class="nav-link" href="form.html">Order</a> 
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="about_us.html">About Us</a> 
+              </li>
+          </ul>      
         </div>
+      </div>
     </nav>
+<!-- Nav -->
     <br>
-    <div class="tittle text-center">
+    <div class="title text-center">
         <h3>ORDER FORMS</h3>
         <p>The data that has been input cannot be changed, thank you.</p>
     </div>
-    <form class="was-validated">
+    <form method="post">
         <div class="container">
         <br>
         <div class="mb-3">
@@ -176,9 +178,9 @@
                     <div class="widget-about">
                         <h5><u>Contact Us</u></h5>
                         <br>
-                        <i class="bi bi-envelope-fill"><a href="#">&nbsp;Info@luxdine.com</a></i>
+                        <i class="bi bi-envelope-fill"><a href="#" style="text-decoration: none; color: white" >&nbsp;Info@luxdine.com</a></i>
                         <br>
-                        <i class="bi bi-telephone-fill"><a href="#">&nbsp;021-334-556</a></i>
+                        <i class="bi bi-telephone-fill"><a href="#" style="text-decoration: none; color: white" >&nbsp;021-334-556</a></i>
                     </div>
                 </div>
                 <div class="col">

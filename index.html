@@ -12,40 +12,97 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg" style="background-color: #bea44c;">
-        <div class="container-fluid">
-          <div class="collapse navbar-collapse" id="navbarText">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <!-- Nav -->    
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">LuxDine</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+         <ul class="navbar-nav me-auto">
+          </ul>
+          <ul class="navbar-nav me-end">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">HOME</a>
+                  <a class="nav-link" href="form.html">Order</a> 
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="form.html">FORM</a>
+                  <a class="nav-link" href="about_us.html">About Us</a> 
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about_us.html">ABOUT US</a>
-              </li>
-            </ul>
-            <span class="navbar-text">
-              <b>LUXDINE</b>
-            </span>
+          </ul>      
+        </div>
+      </div>
+    </nav>
+<!-- Nav -->
+<h1 class="text-center">
+    <b>OUR SPECIALITY</b>
+</h1>
+<!--Slider-->
+<div id="carouselExampleInterval" class="carousel slide pt-5" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+                  <div class="row">
+                      <div class="col-6">
+                          <img src="images/dish-6.png" class="d-block w-75" alt="...">
+                      </div>
+                  <div class="col-4 pt-5">
+                      <h1><b>Mediterannean</b></h1>
+                      <p>When you order one of our classic fusion gourmet dishes in the manner of the Mediterranean, we promise to provide you with a memorable and enjoyable experience. Plunge into the world where the modern and the traditional collide in a genuine but contemporary presentation right next to your eyes.</p>
+                  </div>
+                  <div class="col-2 pt-5">
+              </div>
+          </div>    
+      </div>
+    <div class="carousel-item" data-bs-interval="2000">
+              <div class="row">
+                  <div class="col-6">
+                      <img src="images/home-img-2.png" class="d-block w-75" alt="...">
+                  </div>
+                  <div class="col-4 pt-5">
+                    <h1><b>Italian</b></h1>
+                    <p>We are prepared to provide you the best possible experience of Italian fine dining in the comfort of your own home thanks to our long-standing collaboration with the community's natives and the techniques that stem from those origins that we apply.</p>
+                </div>
+              <div class="col-2 pt-5">
           </div>
-        </div>
-      </nav>
-    <br>
-        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/dining1.jpg" class="d-block w-100" alt="dining">
+      </div>
+    </div>
+    <div class="carousel-item">
+              <div class="row">
+                  <div class="col-6">
+                      <img src="images/home-img-3.png" class="d-block w-75" alt="...">
+                  </div>
+              <div class="col-4 pt-5">
+                  <h1>Asian</h1>
+                  <p>Since our cuisine is rooted in a history that is over a thousand years old, and since we get our spices and other delicacies from all around Asia, we can guarantee that your dining experience on Asian soil will be one of the most luxurious possible.</p>
               </div>
-              <div class="carousel-item">
-                <img src="images/dining3.jpg" class="d-block w-100" alt="dining1">
-              </div>
-              <div class="carousel-item">
-                <img src="images/dining4.jpg" class="d-block w-100" alt="dining2">
-              </div>
+              <div class="col-2 pt-5">
+          </div>
+      </div>          
+    </div>
+    <div class="carousel-item">
+        <div class="row">
+            <div class="col-6">
+                <img src="images/home-img-4.png" class="d-block w-75" alt="...">
             </div>
+        <div class="col-4 pt-5">
+            <h1>French</h1>
+            <p>French cuisine is a flavorful amalgamation of history, culture, tradition and above all, sophisticated cooking techniques. And With that definition we're make sure It's a necessary to serve you the most flawless form this fine dining. Be ready for an elegant and satisfying experience of your dining life.</p>
         </div>
+        <div class="col-2 pt-5">
+    </div>
+</div>          
+</div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!--slider-->
         <br>
     <div class="container">
         <h3>Our Chef</h3>
@@ -73,7 +130,7 @@
                     <img src="images/chef/adrian.webp" class="card-img-top" alt="chef2">
                     <div class="card-body">
                       <h5 class="card-title">Adrian Syahputra</h5>
-                      <p class="card-text">I have 16 years of experience with Mediterraneo Food, Lively cuisine,and Refreshing cuisine. I currently live in Bali and work with a famous French chef.</p>
+                      <p class="card-text">I have 16 years of experience with Mediterraneo, France, and Asian cuisine. I currently live in Bali and work with a famous French chef.</p>
                     </div>
                 </div>
             </div>
@@ -84,48 +141,17 @@
             <div class="col">
             <div class="card text-bg-dark">
                 <div id="menu">
-                <img src="images/medi/medi1.jpg" class="card-img" alt="medi">
+                <img src="images/medi/beef-tagine.jpg" class="card-img" alt="medi">
                 </div>
                 <div class="card-img-overlay">
-                    <h5>Mediterraneo</h5>
-                    <div class="position-absolute bottom-0 end-0">
+                    <h5>Mediterranean</h5>
+                    <div class ="position-absolute bottom-0 end-0">
                         <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                            See Menu
+                            <a href="menu_mediterranean.html"; style="text-decoration: none; color:white">see menu</a>
                         </button>
                     </div>
                 </div>
             </div>
-            </div>
-            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Mediterraneo</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <h6>First Course</h6>
-                      <p>Spanish-Style Garlic Shrimp, Tomato Toast, Wiltered Kale with Golden Raisins<br/>
-                        Mussels Dijonnaise, Shoestring Fries, Parsley Sauce<br/>
-                        Beef Carpaccio, Parmigiano Reggiano, Mustard Foam, Fried Capers<br/>
-                        Creamy Polenta, Wild Mushroom Ragú, Gorgonzola, Herb Oil<br/>
-                        Hot Grill Octopus, Chickpea Puree, Basque Country Salsa<br/>
-                        Beefsteak Tomato and Burrata Salad with Olive Streusel</p>
-                       <h6>Main Course</h6>
-                       <p>Seared Mediterranean Sea Bass, Navy Bean Stew cooked with Tomato, Raki, and fennel<br/>
-                        Lemon and Rosemary Roasted Chicken, Shallot-Morel-Demi Sauce, Creamy Potato Puree<br/>
-                        Wood Grilled Branzino with Manzanilla Olive and Preserved Meyer Lemon Salsa<br/>
-                        Roasted Lamb Chops, Goat Cheese Polenta, Braised Vegetables, and Mint Yogurt<br/>
-                        Grilled Tenderloin, Sweet Onion, Farro Salad Bone, Parmesan Cheese Shavings</p>
-                       <h6>Dessert</h6>
-                       <p>Almond and Pistachio Baklava<br/>
-                        Espresso Crème Brûlée</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Oke</button>
-                    </div>
-                  </div>
-                </div>
             </div>
             <div class="col">
                 <div class="card text-bg-dark">
@@ -137,42 +163,11 @@
                         <h5>Italia</h5>
                         <div class="position-absolute bottom-0 end-0">
                             <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#static">
-                                See Menu
+                              <a href="menu_Italian.html"; style="text-decoration: none; color:white">see menu</a>
                             </button>
                         </div>
                     </div>
                     </div>
-                </div>
-            </div>
-            <div class="modal fade" id="static" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h1 class="modal-title fs-5" id="staticBackdropLabel">Italia</h1>
-                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <h6>First Course</h6>
-                      <p>White Fish Carpaccio, Rosemary Oil & Orange Zest, Crumbled Pistachio<br/>
-                        Crudo Beef with Calabrian Chili, Ricotta Salata, Oregano, and Black Olive Aïoli<br/>
-                        Cacio e Pepe, Choice of Handmade Pasta with an Intense Pepper Sauce<br/>
-                        Burrata with Dates Pesto, Lemony Fennel Salad , Grilled Crostini<br/>
-                        Little Gem Salad with Sieved Egg, Bacon Vinaigrette, Herbed Breadcrumbs</p>
-                       <h6>Main Course</h6>
-                       <p>Sardinian Fregola with Clams, Fennel, Tomato, Fresh Herbs<br/>
-                        Duck with Porcini Risotto, with Pistachios<br/>
-                        Thyme and Garlic Roasted Chicken , Antipasti of Summer Vegetables, Toasted Pine Nuts<br/>
-                        Grilled and Sliced, Rib-eye in a Brandy & Green Peppercorn Sauce, Fries<br/>
-                        White Fish, Pescatore Sauce, Roasted Artichockes and Salsa Verde<br/>
-                        Roman Style Porchetta, Almond Milk Roasted Root Vegetables, Caramelized Shallots, Fresh Salad</p>
-                       <h6>Dessert</h6>
-                       <p>Chef's Tiramisú<br/>
-                        Limoncello Panna Cotta</p>
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Oke</button>
-                    </div>
-                  </div>
                 </div>
             </div>
         </div>
@@ -181,120 +176,61 @@
             <div class="col">
                 <div class="card text-bg-dark">
                     <div id="menu">
-                    <img src="images/live/refreshing.jpg" class="card-img" alt="ref">
+                    <img src="images/live/signature roast duck.jpg" class="card-img" alt="ref">
                     </div>
                     <div class="card-img-overlay">
                     <div id="text">
-                        <h5>Refreshing</h5>
+                        <h5>Asia</h5>
                         <div class="position-absolute bottom-0 end-0">
                           <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#static1">
-                            See Menu
+                            <a href="menu_asian.html"; style="text-decoration: none; color:white">see menu</a>
                         </button>
                         </div>
                     </div>
                     </div>
                 </div>
-            </div>
-            <div class="modal fade" id="static1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Refreshing</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <h6>First Course</h6>
-                    <p>Sea Scallops Carpaccio with Citrus Sauce, Celery, Coconut and Fresh Herbs<br/>
-                      Tuna Carpaccio with Kalamata Olive Aioli and Avocado<br/>
-                      Roasted Beet and Citrus Salad with Ricotta and Pistachio Vinaigrette<br/>
-                      Green Tomato Gazpacho with Mini-Shrimp Tostadas<br/>
-                      Chilli-Pressed Watermelon, Quinoa & Feta Salad with a Lemon Vinaigrette, Toasted Corn</p>
-                     <h6>Main Course</h6>
-                     <p>White Fish, Yellow Curry Sauce, Spiced Butternut Squash, Roasted Peanuts, Brown Rice and Cucumber Relish<br/>
-                      Orzo with Moroccan Spiced Shrimp, Feta, Cherry Tomatoes and Spinach<br/>
-                      Chicken Shawarma Hummus Bowl, Grilled Vegetables and Citrus Slaw<br/>
-                      Roasted Beef Tenderloin with Creamy Quinoa Risotto and Brussels Sprouts Chips</p>
-                     <h6>Dessert</h6>
-                     <p>Coconut Rice Pudding with Ginger Infused Pears<br/>
-                      Seasonal Fresh Fruit with Whipped Goat Yogurt and Caramel Crumble</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Oke</button>
-                  </div>
-                </div>
-              </div>
             </div>
             <div class="col">
                 <div class="card text-bg-dark">
                     <div id="menu">
-                    <img src="images/live/lively.jpg" class="card-img" alt="live">
+                    <img src="images/live/potatogratin.jpeg" class="card-img" alt="live">
                     </div>
                     <div class="card-img-overlay">
                     <div id="text">
-                        <h5>Lively</h5>
+                        <h5>French</h5>
                         <div class="position-absolute bottom-0 end-0">
                           <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#static2">
-                            See Menu
+                            <a href="menu_france.html"; style="text-decoration: none; color:white">see menu</a>
                         </button>
                         </div>
                     </div>
                     </div>
                 </div>
             </div>
-            <div class="modal fade" id="static2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-              <div class="modal-dialog">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Lively</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body">
-                    <h6>First Course</h6>
-                    <p>Green Gazpacho with Burrata and Prosciutto<br/>
-                      Grilled Shrimp Salad, Peach, Toasted Almond and Aromatic Herbs<br/>
-                      Cumin Roasted Carrots, Avocado, Honey-Yogurt, Arugula and Toasted Pumpkin Seeds<br/>
-                      Tomato-Watermelon Salad with Crumbled Goat Cheese, Almond Vinaigrette<br/>
-                      White Fish Ceviche, Coconut Milk, Grapefruit, Avocado, and Crispy Tortilla Chips</p>
-                     <h6>Main Course</h6>
-                     <p>Lemon-Butter Grilled Steak with Couscous Tabbouleh, Avocado Salad<br/>
-                      Vietnamese Style Braised Short Rib, Mint and Basil Pistou, Bean Sprouts, Herb Salad<br/>
-                      Grilled Salmon Steaks over Coconut Curry Sauce, Selected Greens and Barley<br/>
-                      Pomegranate-Glazed Chicken with Buttery Pine Nuts, Roasted Sweet Potato<br/>
-                      Jerked Chicken, Pineaple and Fried Garlic Rice, Coconut-Turmeric Broth, Cilantro</p>
-                     <h6>Dessert</h6>
-                     <p>Blueberry Crumble Cake, Lemon-Yogurt Ice Cream<br/>
-                      Almond Cake with Market Strawberries</p>
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Oke</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </div>
+           </div>
     </div>
     <br>
     <footer class="wrapper">
         <div id="bottom">
         <div class="container text-center" >
-            <div class="row">
+            <div class="row p-5">
                 <div class="col">
                     <div class="widget-about">
-                        <h5><u>Contact Us</u></h5>
+                        <h5>Contact Us</h5>
                         <br>
-                        <i class="bi bi-envelope-fill"><a href="#">&nbsp;Info@luxdine.com</a></i>
+                        <i class="bi bi-envelope-fill"><a href="#" style="text-decoration: none; color: white" >&nbsp;Info@luxdine.com</a></i>
                         <br>
-                        <i class="bi bi-telephone-fill"><a href="#">&nbsp;021-334-556</a></i>
+                        <i class="bi bi-telephone-fill"><a href="#" style="text-decoration: none; color: white" >&nbsp;021-334-556</a></i>
                     </div>
                 </div>
                 <div class="col">
-                    <h5><u>Our Office</u></h5>
+                    <h5>Our Office</h5>
                     <br>
                     <i class="bi bi-house-fill">&nbsp;Parc 18 - Tower A</i>
                     <p>Jl. Jend.Sudirman Kav.52-53, Jend.Sudirman, SCBD, Jakarta Selatan</p>
                 </div>
                 <div class="col">
-                    <h5><u>Social Media</u></h5>
+                    <h5>Social Media</h5>
                     <br>
                     <div class="icon" style="width: 200pax;">
                         <i class="bi bi-facebook">&nbsp;Facebook</i>
